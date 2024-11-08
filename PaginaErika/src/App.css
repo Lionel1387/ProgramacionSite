@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.jugada-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #48e;
+}
+.jugada{
+  width: 220px;
+  height: 190px;
+  background-repeat: no-repeat;
+}
+.piedra{
+  background-image: url(../public/piedra.png);
+}
+.papel{
+  background-image: url(../public/papel.png);
+}
+.tijeras{
+  background-image: url(../public/tijeras.png);
+}
